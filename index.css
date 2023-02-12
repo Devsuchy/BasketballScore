@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-image: url(https://netstorage-sportsbrief.akamaized.net/images/6db9ddd842023952.jpg?imwidth=900);
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+ 
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    margin: 50px 0px 0px 0px ;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    /* background-color: red; */
+    font-size: 40px;
+    color: #EEEEEE;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#score-home{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    color: #F94F6D;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    
+    
+    
+}
+
+#score-guest{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    color: #F94F6D;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+
+.btn-points {
+    /* background-color: ; */
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: solid 1px;
+    border-radius: 5px;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 30px;
+}
+
+#btn-newgame {
+        height: 40px;
+        width: 80px;
+      text-align: center;
+      color: #9AABD8;
+      background-color: #F94F6D;
+      font-family: 'Cursed Timer ULiL', sans-serif;
+      padding: 10px 15px;
+      margin-top: 50px;
+      margin: auto ;
+      border: solid 3px black;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+
+#btn-saveresult {
+      height: 40px;
+      width: 80px;
+      text-align: center;
+      color: #9AABD8;
+      background-color: green;
+      font-family: 'Cursed Timer ULiL', sans-serif;
+      padding: 10px 15px;
+      margin: auto;
+      border: solid 3px black;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+#last-match{
+      height: 40px;
+      width: 200px;
+      text-align: center;
+      color: #9AABD8;
+      background-color: lemonchiffon;
+      font-family: 'Cursed Timer ULiL', sans-serif;
+      padding: 10px 15px;
+      margin: 20px auto;
+      border: solid 3px black;
+      border-radius: 5px;
+      font-size: 16px;
+}
+
+#clock {
+    display: flex;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: black;
+    color: #F94F6D;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    
+   }
